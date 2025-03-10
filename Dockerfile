@@ -19,6 +19,9 @@ WORKDIR "/src/AsuntoService"
 # Asegurar que la restauración de paquetes se ha ejecutado antes de la compilación
 RUN test -f obj/project.assets.json || dotnet restore
 
+# Copiar el archivo .env.example y renombrarlo como .env dentro del contenedor
+RUN cp .env.example .env
+
 # Compilar el proyecto
 RUN dotnet build -c Release -o /app/build
 

@@ -6,11 +6,17 @@ using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using AsuntoService.Data;
 using System;
+using DotNetEnv;  // Importar la librería para cargar .env
 
 public class Program
 {
     public static void Main(string[] args)
     {
+        // Cargar variables de entorno desde .env al iniciar la aplicación
+        Env.Load();
+        // Obtener la conexión desde variables de entorno
+var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION") ?? "Host=localhost;Port=5432;Database=asuntos_db;Username=postgres;Password=supersecreto";
+
         var builder = WebApplication.CreateBuilder(args);
 
         //Agregar el contexto de base de datos

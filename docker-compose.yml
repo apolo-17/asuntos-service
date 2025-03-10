@@ -5,6 +5,8 @@ services:
     build: ./
     ports:
       - "5001:80"
+    env_file:
+      - .env  
     environment:
       ConnectionStrings__DefaultConnection: "Host=31.207.89.103;Port=5432;Database=SCGDS;Username=postgres;Password=asd123"
     networks:
