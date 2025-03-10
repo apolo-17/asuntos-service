@@ -111,11 +111,10 @@ C:\Users\anaqui.apolinar\AsuntosService\bin\Debug\net9.0\zh-Hans\Microsoft.CodeA
 C:\Users\anaqui.apolinar\AsuntosService\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\anaqui.apolinar\AsuntosService\obj\Debug\net9.0\AsuntosService.csproj.AssemblyReference.cache
 C:\Users\anaqui.apolinar\AsuntosService\obj\Debug\net9.0\AsuntosService.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\anaqui.apolinar\AsuntosService\obj\Debug\net9.0\AsuntosService.AssemblyInfoInputs.cache
-C:\Users\anaqui.apolinar\AsuntosService\obj\Debug\net9.0\AsuntosService.AssemblyInfo.cs
 C:\Users\anaqui.apolinar\AsuntosService\obj\Debug\net9.0\AsuntosService.csproj.CoreCompileInputs.cache
 C:\Users\anaqui.apolinar\AsuntosService\obj\Debug\net9.0\AsuntosService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\anaqui.apolinar\AsuntosService\obj\Debug\net9.0\AsuntosService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\anaqui.apolinar\AsuntosService\obj\Debug\net9.0\AsuntosService.sourcelink.json
 C:\Users\anaqui.apolinar\AsuntosService\obj\Debug\net9.0\scopedcss\bundle\AsuntosService.styles.css
 C:\Users\anaqui.apolinar\AsuntosService\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\anaqui.apolinar\AsuntosService\obj\Debug\net9.0\staticwebassets.development.json
